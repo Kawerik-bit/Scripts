@@ -42,3 +42,8 @@ def backup():
 
 if __name__ == "__main__":
     backup()
+
+
+# To execute run in terminal: "python3 backup.py" Make sure python3 is installed.
+# Could also be scheduled as a cronjob to further automate it: "crontab -e" and "0 5 * * * /usr/bin/python3 /home/kawerik/scripts/backup.py"
+# Th above example sets the cronjob for 05:00 AM
