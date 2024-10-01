@@ -113,6 +113,7 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         logging.info("Network monitoring stopped.")
 
+# This script will check the status of the network the device is conected on
 # Run script - python3 monit-network.py
 # Make sure to psutil is installed on the machine in order for the script to work
 # Installation: "pip install psutil"
