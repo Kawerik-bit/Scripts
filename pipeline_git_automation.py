@@ -151,4 +151,5 @@ if __name__ == "__main__":
 
 # Script to streamline a continuous integration and continuous deployment process in github
 # Replace variables in begining with desired repos/users etc...
-# Run script with "python pipeline_automation.py main stage" or "python pipeline_automation.py main production" based on the enviroment you want to deploy
+# Run examples: with "python pipeline_automation.py main stage" - from main branch to stage deploy
+# "python pipeline_automation.py $v0.1 production" - deploy from tag v0.1 to production ( replace the $v0.1 variable with your tag)
