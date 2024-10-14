@@ -16,5 +16,5 @@ if [ -f /var/run/reboot-required ]; then
     reboot now
 fi
 
-#execute sith "./Sys-update.sh"
+# execute sith "./Sys-update.sh"
 # execute it while being in the directory of the script or specify the path to it
