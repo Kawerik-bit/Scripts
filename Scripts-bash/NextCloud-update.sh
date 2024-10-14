@@ -17,3 +17,6 @@ docker compose pull
 # Starting nextcloud container
 echo "Starting nextcloud containers .... "
 docker compose up -d
+
+#execute sith "./NextCloud-update.sh"
+# execute it while being in the directory of the script or specify the path to it
