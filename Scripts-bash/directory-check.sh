@@ -8,3 +8,6 @@ then
 else
    echo "Directory not found"
 fi
+
+# execute sith "./directory-check.sh"
+# execute it while being in the directory of the script or specify the path to it
